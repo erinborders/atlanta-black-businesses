@@ -1,9 +1,7 @@
-require('dotenv').config()
-
 const config = {
     style: "mapbox://styles/mapbox/light-v10",
-    accessToken: process.env.MAPBOX_TOKEN,
-    CSV: "./Example.csv",
+    accessToken: key,
+    CSV: "Finder- Sample Data - Sheet1.csv",
     center: [-120.234, 47.398], //Lng, Lat
     zoom: 6, //Default zoom
     title: "Replace with your title",
