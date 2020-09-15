@@ -2,11 +2,11 @@ const config = {
     style: "mapbox://styles/mapbox/light-v10",
     accessToken: key,
     CSV: "https://docs.google.com/spreadsheets/d/1o1NuCmpCcJ2vLa4HwPGQoZSO82fEl_qweSJ5of_ve_0/gviz/tq?tqx=out:csv&sheet=atlantaBlackBusinesses",
-    center: [-120.234, 47.398], //Lng, Lat
-    zoom: 6, //Default zoom
+    center: [-84.401, 33.760], //Lng, Lat
+    zoom: 10, //Default zoom
     title: "Replace with your title",
     description: "Replace with information about your application. Ex. You can search by address to sort the list below by distance. You can also filter the list by language support options, which days a location is open, and whether they have devices to use to complete the survey by phone or online.",
-    sideBarInfo: ["Header", "Info 1", "Info 2"],
+    sideBarInfo: ["Name", "Business Type", "Offerings"],
     popupInfo: ["Popup Information"],
     filters: [
         {
