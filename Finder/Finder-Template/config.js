@@ -1,7 +1,7 @@
 const config = {
     style: "mapbox://styles/mapbox/light-v10",
     accessToken: key,
-    CSV: "Finder- Sample Data - Sheet1.csv",
+    CSV: "https://docs.google.com/spreadsheets/d/1o1NuCmpCcJ2vLa4HwPGQoZSO82fEl_qweSJ5of_ve_0/gviz/tq?tqx=out:csv&sheet=atlantaBlackBusinesses",
     center: [-120.234, 47.398], //Lng, Lat
     zoom: 6, //Default zoom
     title: "Replace with your title",
