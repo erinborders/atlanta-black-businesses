@@ -51,3 +51,5 @@ const config = {
     ]
 
 };
+
+console.log(process.env.KEY)
