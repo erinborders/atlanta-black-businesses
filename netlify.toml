@@ -1,2 +1,2 @@
 [build]
-    Command = "node -p 'process.env'"
+    Command = "node index.js -p 'process.env'"
