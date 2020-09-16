@@ -1,6 +1,6 @@
 const config = {
     style: "mapbox://styles/mapbox/streets-v11",
-    accessToken: key,
+    accessToken: process.env.KEY,
     CSV: "https://docs.google.com/spreadsheets/d/1o1NuCmpCcJ2vLa4HwPGQoZSO82fEl_qweSJ5of_ve_0/gviz/tq?tqx=out:csv&sheet=atlantaBlackBusinesses",
     center: [-84.401, 33.760], //Lng, Lat
     zoom: 10, //Default zoom
