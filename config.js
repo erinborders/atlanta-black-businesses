@@ -6,7 +6,7 @@ const config = {
     zoom: 10, //Default zoom
     title: "Buy Black",
     description: "Want to support black restaurants? This map has amazing options to try. Filter the list by cuisine and price, or enter your location in the search bar to see restaurants near you.",
-    sideBarInfo: ["Name", "Business Type", "Offerings"],
+    sideBarInfo: ["Name", "Offerings", "Price"],
     popupHeader: ["Name"],
     popupDescription: ["Address"],
     filters: [
