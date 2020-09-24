@@ -465,19 +465,32 @@ map.on("load", function () {
 
 // Modal - popup for filtering results
 const filterResults = document.getElementById("filterResults");
+const addRestaurant = document.getElementById('addRestaurantButton')
 const exitButton = document.getElementById("exitButton");
 const modal = document.getElementById("modal");
+const restaurantForm = document.getElementById("restaurantForm")
+const formExitButton = document.getElementById("formExit")
 
 filterResults.addEventListener("click", () => {
     modal.classList.remove("hide-visually");
     modal.classList.add("z5");
 });
 
+addRestaurant.addEventListener("click", () => {
+    restaurantForm.classList.remove("hide-visually");
+    restaurantForm.classList.add("z5");
+})
+
 exitButton.addEventListener("click", () => {
     modal.classList.add("hide-visually");
 });
 
+formExitButton.addEventListener("click", () => {
+    restaurantForm.classList.add("hide-visually");
+})
+
+
 const title = document.getElementById("title");
 title.innerText = config.title;
 const description = document.getElementById("description");
-description.innerText = config.description;
+description.innerHTML = config.description;
