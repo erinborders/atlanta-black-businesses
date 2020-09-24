@@ -39,6 +39,9 @@
                                     <use xlink:href='#icon-filter' /></svg>
                                 <p class="inline-block-ml align-middle remove none">Show Filters</p>
                             </button>
+                            <button id='addRestaurantButton' class="txt-bold btn btn--stroke mr0-ml mr12 px18-ml px6">
+                                <p class="inline-block-ml align-middle remove none">Add Restaurant</p>
+                            </button>
                         </div>
 
 
@@ -50,6 +53,51 @@
         </div>
         <div class='flex-child flex-child--grow w-auto viewport-full-ml viewport-twothirds' id='map'>
 
+        </div>
+
+        <div id='restaurantForm'
+        style="width: 30%; margin-left: 50%; display: flex; flex-basis: 13em;"
+            class='absolute top right bottom left scroll-auto hide-visually flex-parent flex-parent--center-main mt120-ml'>
+            <div class='pt36'>
+                <div class='flex-child bg-white round relative scroll-auto'>
+                    <button id='formExit' class='absolute top right px12 py12'>
+                        <svg class='icon link color-darken50'>
+                            <use xlink:href='#icon-close'></use>
+                        </svg>
+                    </button>
+                    <div class='px24 py24'>
+                        <div class="align-center py12"></div>
+                    
+                            <h3 class="txt-bold">Submit a New Restaurant:</h3>
+                            <form class="px24" action="https://getform.io/f/07f838e4-4327-4e92-a77e-17edf70b7c8e" method="POST">
+                                <div class="formEntry py12">
+                                
+                                    <input type="text" placeholder="Restaurant Name" name="name">
+                                </div>
+                                <div class="formEntry py12">
+                        
+                                    <input type="text" placeholder="Restaurant Address" name="address">
+                                </div>
+                                <div class="formEntry py12">
+                    
+                                    <input type="text" placeholder="Cuisine" name="cuisine">
+                                </div>
+                                <div class="formEntry py12">
+
+                                    <select style="width: 11rem;" name="price">Price
+                                        <option value="$">$</option>
+                                        <option value="$$">$$</option>
+                                        <option value="$$$">$$$</option>
+                                    </select>
+                                </div>
+                                <button class="btn" type="submit">Send</button>
+                                  
+                            </form>
+                    
+                    </div>
+
+                </div>
+            </div>
         </div>
 
         <div id='modal'
