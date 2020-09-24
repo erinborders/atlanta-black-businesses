@@ -5,7 +5,7 @@ const config = {
     center: [-84.401, 33.760], //Lng, Lat
     zoom: 10, //Default zoom
     title: "Buy Black",
-    description: "Want to support black restaurants? This map has amazing options to try. Filter the list by cuisine and price, or enter your location in the search bar to see restaurants near you.",
+    description: "Want to support black restaurants? This map has amazing options to try. Filter the list by cuisine and price, or enter your location in the search bar to see restaurants near you. Created by <a style='text-decoration: underline' href='https://www.erinborders.me/'>Erin Borders</a>.",
     sideBarInfo: ["Name", "Offerings", "Price"],
     popupHeader: ["Name"],
     popupDescription: ["Address"],
