@@ -14,3 +14,6 @@ restaurants in Atlanta. Find the live site at: [Buy Black Guru](https://www.buyb
 
 Want to contribute? Add an issue with your idea and I will review
 it as soon as possible.
+
+For more information on how to contribute, please watch this 
+[video](https://youtu.be/jZtECuvNRiw).
