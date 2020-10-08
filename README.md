@@ -1,46 +1,16 @@
-This repository stores the template code files for Mapbox Impact Tools. 
+# Atlanta Black-owned Restaurants
 
-# Mapbox Impact Tools
+This asset map is a convenient tool for locating Black-owned
+restaurants in Atlanta. Find the live site at: [Buy Black Guru](https://www.buyblack.guru/)
 
-https://www.mapbox.com/impact-tools/
+### Navigation
 
-From storytelling, to mobilization, to disaster relief, location and maps are powerful tools for impact. But the people and organizations doing the work are facing limited capacity and high stakes. 
-Mapbox Impact Tools are free templates and guides to get up and running with common, strategic use-cases — advanced technical skills not required. 
+1. config.js: This is the file you will be working in.
+2. index.html: This contains the HTML and some CSS styling rules from Assembly.js for the template. You can open it in your browser to see your progress as you build your finder app.
+3. app.js: This contains the code for the template. 
+4. style.css: This file has additional styling rules for the application. 
 
-## Setting up a local testing server 
+### Contributions
 
-To avoid CORS errors when testing, we recommend running a local [http-server for node](https://www.npmjs.com/package/http-server) or a [SimpleHTTPServer for python](https://docs.python.org/2/library/simplehttpserver.html).
-
-
-### Node: 
-
-`$ cd path/to/index.html` <br>
-`$ http-server`<br>
-`Starting up http-server, serving ./`<br>
-`Available on:`<br>
-  `http://127.0.0.1:8080`<br>
-  `http://192.168.0.127:8080`<br>
-`Hit CTRL-C to stop the server`
-
-### Python: 
-
-`$ cd path/to/index.html` <br>
-
-If Python version returned above is 3.X <br>
-`$ python3 -m http.server`
-
-If Python version returned above is 2.X
-
-`$ python -m SimpleHTTPServer`
-
-
-
-## Need additional support? 
-This repo is not monitored for support requests. If you would like to connect with someone at Mapbox, please choose from the following options:
-- Contact [Mapbox Support](https://support.mapbox.com/hc/en-us)
-- Search [Stack Overflow](https://stackoverflow.com/questions/tagged/mapbox)
-- Contact the [Community team](https://www.mapbox.com/community/) to share your project or suggest a new Impact Tool
-
-
-
-
+Want to contribute? Add an issue with your idea and I will review
+it as soon as possible.
